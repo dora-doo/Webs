@@ -1,0 +1,132 @@
+.navbar {
+  background-color: #fff0f5 !important; /* light rose pink */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #d63384 !important;
+  font-size: 1.8rem;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #555 !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #d63384 !important; /* rose accent on hover */
+}
+    body {
+      font-family: 'Outfit', sans-serif;
+      scroll-behavior: smooth;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .navbar {
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 60px 20px;
+    }
+    .section-heading {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .product-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Section Background Colors */
+    #jewelry { background-color: #fff5f8; }
+    #clothes { background-color: #f3f8ff; }
+    #shoes { background-color: #fdf5e6; }
+    #bags { background-color: #f7f7f7; }
+    #watches { background-color: #f2f6f5; }
+    #others { background-color: #fcf5ff; }
+
+.btn-shop {
+  background-color: #d63384;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+.btn-shop:hover {
+  background-color: #c2185b;
+}
+
+.btn-luxury {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  background-color: #8e44ad; /* example purple luxury shade */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-luxury:hover {
+  background-color: #732d91;
+}
+
+.clicked-effect {
+  transform: scale(1.05);
+  background-color: #a569bd !important; /* lighter flash on click */
+}
+.popup-message {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #a569bd;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-weight: bold;
+  z-index: 9999;
+  animation: fadeInOut 2s ease;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateX(-50%) translateY(20px); }
+  10% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-20px); }
+}
+.footer {
+  background-color: #111; /* dark background */
+  color: white;
+}
+
+.footer-link {
+  color: #ffcc00; /* gold-like highlight */
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.footer-link i {
+  margin-right: 6px;
+  color: #6c757d; /* subtle gray tone */
+}
+.footer-link:hover i {
+  color: #d4af37; /* gold tone for hover effect */
+}
